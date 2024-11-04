@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Summer to-do list</h1>
+    </header>
+    <main>
+        <div id="listContainer">
+            <div class="picture">
+                <img src="assets/images/paper-bg.png" alt="paper-bg">
+            </div>
+        </div>
+        <form action="#">
+            <button onclick="newtask()">Add task</button>
+            <label for="task"></label>
+            <input type="text"  id="task">
+            <button type="submit" id="submit" onclick="submitTask()">✔</button>
+            <p id="result"></p>
+        </form>
+    </main>
+    <footer></footer>
+    <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>

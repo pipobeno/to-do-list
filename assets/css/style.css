@@ -1,0 +1,94 @@
+@font-face {
+    font-family: reenie;
+    src: url('../fonts/ReenieBeanie-Regular.ttf');
+}
+
+.cacher {
+    display: none;
+}
+
+body {
+    background-image: url("../images/beach-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+    /* overflow: hidden; */
+}
+h1 {
+    display: none;
+}
+.picture img{
+    width: 30%;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+button {
+    width: fit-content;
+    font-family: reenie;
+    font-size: 50px;
+    font-weight: 800;
+    color: #00aca0;
+    background-color: #fff78656;
+    border: solid 3px #5c3c13;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 70%;
+    left: 38%;
+}
+
+#containerlabel {
+    width: fit-content;
+    font-family: reenie;
+    font-size: 50px;
+    font-weight: 800;
+    color: #00aca0;
+    background-color: #fff78656;
+    border: solid 3px #5c3c13;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 60%;
+    left: 38%;
+}
+
+input {
+    width: fit-content;
+    font-family: reenie;
+    font-size: 50px;
+    font-weight: 800;
+    color: #4d3618;
+    background-color: #fff78656;
+    border: solid 3px #5c3c13;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 60%;
+    left: 38%;
+}
+
+#submit {
+    width: fit-content;
+    font-family: reenie;
+    font-size: 30px;
+    font-weight: 800;
+    color: #00aca0;
+    background-color: #fff78656;
+    border: solid 3px #5c3c13;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 61%;
+    left: 60%;
+}
+#result {
+    width: fit-content;
+    font-family: reenie;
+    font-size: 30px;
+    font-weight: 800;
+    color: #00aca0;
+}
